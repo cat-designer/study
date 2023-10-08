@@ -1,0 +1,38 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   font: 19px Arial;
+}
+
+#main {
+   width: 100%;
+   height: 800px;
+   background: linear-gradient(29deg, rgba(158,0,255,0.4) 0%, rgba(112,163,255,0.4) 100%), url('img/main.jpg') center;
+   background-size: cover;
+   
+   border-collapse: collapse;
+   color: white; 
+}
+td {
+   border: 1px solid;
+}
+th {
+   height: 55px;
+   
+}
+#maintime {
+   width: 45%;
+}
+#maintext {
+   font: bold 100px Tahoma;
+   padding-left: 10%;
+}
+#logo {
+   width: 0px;
+   text-align: left;}
+#logo {
+   width: 100px;
+}
+#artist {
+   width: ;
+}
