@@ -1,7 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	font: 14px Arial;
+	font: 14px Roboto;
 	}
 
 a, a:visited {
@@ -16,17 +16,20 @@ a:hover {
 	text-decoration: none;
 	}
 
-	/* td {
+	td {
 		border: 1px solid;
-	} */
+	}
 
 	table {
 		width: 100%;
+		border-collapse: collapse;
+		color: white;
+	}
+
+	table.musicfestival {
 		height: 800px;
 		background: linear-gradient(29deg, rgba(158,0,255,0.4) 0%, rgba(112,163,255,0.4) 100%), url('img/main.jpg') center;
 		background-size: cover;
-		border-collapse: collapse;
-		color: white; 
 	}
 
 	#menu {
@@ -37,10 +40,11 @@ a:hover {
 		word-spacing: 10px;
 	}
 
-	#festival {
+	.festival {
 		width: 540px;
-		font: bold 100px Tahoma, sans-serif;
+		font-size: 900;
 		padding-left: 50px;
+		word-spacing: 100vw;
 	}
 	
 
@@ -55,8 +59,12 @@ text-align: center;
 }
 
 .maintime {
-	margin: 20px auto;
-	width: 45%;
+	margin: 0 auto;
+	font-size: ;
+	text-transform: uppercase;
+	width: 80%;
+	height: 80%;
+	text-align: center;
 }
 
 .atristivite {
@@ -83,4 +91,11 @@ text-align: center;
 	width: 200px;
 	background-color: #fff;
 	border-radius: 10px;
+}
+
+img {
+	width: 160px;
+	background-color: rgba(158,0,255,0.4);
+	
+	
 }

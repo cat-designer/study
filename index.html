@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<title>Minsk Rock Music Festival</title>
 </head>
 <body>
-	<table>
+	<table class="musicfestival">
 		<thead>
 			<tr>
 				<td id="menu" colspan="2">
@@ -22,22 +25,29 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td>
-				<p id="festival">MINSK MUSIC FESTIVAL</p>
+				<td class="festival">
+				MINSK MUSIC FESTIVAL
 			</td>
-				<td  rowspan="3">
-					<div class="maintime">ghbfn	
-							время начала: 17.00
-							Место проведения Минск-Арена
-							13.10.2023 года</div>
+				<td class="maintime" rowspan="3">
+							<table class="maintime">
+								<tr>
+									<td><img  src="/img/time.png"> 17.00</td>
+									<td><img src="/img/place.png" alt=""> Минск-Арена</td>
+								</tr>
+								<tr>
+									<td colspan="2">13.10.2023 года</td>
+								</tr>
+								</table>
+							
+							
 				</td>
 				</tr>
 			<tr>
 				<td class="atristivite">2 дня | 8 приглашенных артистов | насыщенная программа</td>
 				<tr>
 					<td class="buyticket">
-					<div ><a class="button" href="https://www.kvitki.by/rus/bileti/muzyka/rok/rok-fest-337524/">Купить билет</a>
-					</div>
+					<a class="button" href="https://www.kvitki.by/rus/bileti/muzyka/rok/rok-fest-337524/">Купить билет</a>
+					
 				</td>
 				</tr>
 			</tr>
